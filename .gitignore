@@ -1,0 +1,31 @@
+# Secrets - VERY IMPORTANT
+n8n-464215-33ca53e865e8.json
+*.json
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Build artifacts
+MLOPS_PROJECT_1.egg-info/
+build/
+dist/
+
+# Logs
+logs/
+*.log
+
+# Generated data, models, and other artifacts
+# These are usually large and shouldn't be in git
+artifacts/
+
+# IDE / Editor specific folders
+.idea/
+.vscode/
+
+# Downloaded SDKs and archives
+google-cloud-sdk/
+google-cloud-cli-*.tar.gz
+
+# macOS specific files
+.DS_Store
